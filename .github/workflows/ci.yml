@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install setuptools
+      - name: Install Python with setuptools
         run: sudo apt-get install python3-setuptools
 
       - name: Install black
@@ -30,7 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install setuptools
+      - name: Install Python with setuptools
         run: sudo apt-get install python3-setuptools
 
       - name: Upgrade pip

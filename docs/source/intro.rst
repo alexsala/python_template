@@ -1,4 +1,4 @@
 Introduction
 ============
 
-This package is a fake.
+This package is really a fake.

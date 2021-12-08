@@ -17,13 +17,13 @@ jobs:
         run: sudo apt-get install python3-setuptools
 
       - name: Install black
-        run: pip3 install black flake8
+        run: pip3 install black
 
       - name: Lint - Black fake_package
-        run: python3 -m black fake_package/
+        run: python3 -m black --check fake_package/
 
       - name: Lint - Black tests
-        run: python3 -m black tests/
+        run: python3 -m black --check tests/
 
   run-tests:
     runs-on: ubuntu-latest

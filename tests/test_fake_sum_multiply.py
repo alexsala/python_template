@@ -26,3 +26,6 @@ class TestsSumMultiply(TestCase):
 
     def test_multiply2(self):
         self.assertEqual(self.multiplier.multiply(self.x, self.y), self.multiply_result)
+
+    def test_failing(self):
+        self.assertEqual(1, 2)

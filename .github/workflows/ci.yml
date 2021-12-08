@@ -20,10 +20,10 @@ jobs:
         run: pip3 install black flake8
 
       - name: Lint - Black fake_package
-        run: python3 -m black --check fake_package/
+        run: python3 -m black fake_package/
 
       - name: Lint - Black tests
-        run: python3 -m black --check tests/
+        run: python3 -m black tests/
 
       - name: Lint - flake8
         run: python3 -m flake8

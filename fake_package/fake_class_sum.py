@@ -1,18 +1,18 @@
-class class_sum():
-    
+class class_sum:
+
     """Class to sum two numbers.
 
     :param float x: First number.
     :param float y: Second number.
     """
-    
+
     def __init__(self, x: float, y: float) -> float:
         """The constructor."""
-        self.x=x
-        self.y=y
-        self.summed=self.x+self.y
+        self.x = x
+        self.y = y
+        self.summed = self.x + self.y
 
-    def sum(self, x: float,y: float) -> float:
+    def sum(self, x: float, y: float) -> float:
         """Sums two different numbers
 
         .. WARNING::
@@ -21,5 +21,4 @@ class class_sum():
         :param float x: First number.
         :param float y: Second number.
         """
-        return x+y
-
+        return x + y
